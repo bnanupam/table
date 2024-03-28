@@ -3,12 +3,15 @@ import './App.css'
 import cardimg from"./assets/card1.jpeg";
 import newcardimg from"./assets/card1.jpeg";
 import lastcardimg from"./assets/card1.jpeg";
+import Header from './camponants/Header';
+import Footer from './camponants/footer/Footer';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    <Header />
     <div className="mainpage">
      <div className="background">
       <div className="first-colum">
@@ -70,6 +73,7 @@ function App() {
       </div>
      </div>
      </div>
+     <Footer />
     </>
   )
 }

@@ -21,3 +21,8 @@ h2{
   background-color: #DA9322;
   padding: 30px;
 }
+.headerpart{
+  display:flex;
+  justify-content:center;
+  
+}
