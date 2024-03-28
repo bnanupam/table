@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+.background{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background-color:#DA9322;
+
+}
+li{
+  list-style-type: square;
+}
+h2{
+  padding-bottom: 30px;
+}
+.bottompart{
+  display: flex;
+  justify-content: space-between;
+  background-color: #DA9322;
+  padding: 30px;
+}

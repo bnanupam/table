@@ -1,13 +1,15 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import cardimg from"./assets/card1.jpeg";
+import newcardimg from"./assets/card1.jpeg";
+import lastcardimg from"./assets/card1.jpeg";
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    <div className="mainpage">
      <div className="background">
       <div className="first-colum">
         <ul className="first-list">
@@ -24,7 +26,7 @@ function App() {
       <div className="second-colum">
       <ul className="second-list">
        <li> 
-        <h1>Subsidiaries</h1>
+        <h2>Subsidiaries</h2>
         </li>
         <li>
           Edge verbe systems
@@ -38,9 +40,35 @@ function App() {
         <li>Infosyse public service</li>
       </ul>
       </div>
-      <div className="second-colum">
-      <ul className="third-list"></ul>
+      <div className="third-colum">
+      <ul className="third-list">
+        <li>
+          <h2>programe</h2>
+          </li>
+        <li>
+         Infosys foundation
+        </li>
+        <li>
+          Infosys foundation USA
+        </li>
+        <li>
+          Infosys science foundation
+        </li>
+        <li>Infosys leadership Institute</li>
+      </ul>
       </div>
+     </div>
+     <div className="bottompart">
+      <div>
+        <img src= {cardimg} alt="card" />
+      </div>
+      <div>
+        <img src={newcardimg} alt="card" />
+      </div>
+      <div>
+        <img src={lastcardimg} alt="card" />
+      </div>
+     </div>
      </div>
     </>
   )
