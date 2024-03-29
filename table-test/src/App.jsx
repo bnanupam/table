@@ -3,7 +3,7 @@ import './App.css'
 import cardimg from"./assets/card1.jpeg";
 import newcardimg from"./assets/card1.jpeg";
 import lastcardimg from"./assets/card1.jpeg";
-import Header from './camponants/Header';
+import Header from './camponants/Header/Header';
 import Footer from './camponants/footer/Footer';
 
 function App() {
